@@ -2,6 +2,10 @@
 A box of the fastest and most succinct attempts on LeetCode
 
 
+## Language
+
+All questions are attempted with `Python`
+
 ## Focus
 
 Since this is my extracurricular activity, I will focus on the questions I am interested the most first:
