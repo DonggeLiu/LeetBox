@@ -1,5 +1,5 @@
 # LeetBox
-A box of the fastest and most succinct attempts on LeetCode
+A LootBox of the fastest and most succinct attempts on LeetCode
 
 
 ## Language
