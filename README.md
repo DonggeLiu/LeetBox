@@ -1,5 +1,5 @@
 # LeetBox
-A box of the fastest and most succinct attempts on LeetCode
+A LootBox of the fastest and most succinct attempts on LeetCode
 
 
 ## Language
@@ -23,4 +23,4 @@ This is because this repo intends to provide a LootBox for anyone who is interes
 For the same reason, anyone is more than welcome to:
 
 1. Challenge the code here by providing a better one (faster, more succinct, illustrating or interesting)
-2. Add your authorship to any existing/new file if you have sufficient proof.
+2. Add your authorship to any existing/new solution if it is yours.
