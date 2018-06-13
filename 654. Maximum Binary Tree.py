@@ -10,6 +10,7 @@ https://leetcode.com/problems/maximum-binary-tree/description/
 #         self.left = None
 #         self.right = None
 
+
 class Solution(object):
     def constructMaximumBinaryTree(self, nums):
         """
@@ -25,4 +26,3 @@ class Solution(object):
                 stack[-1].right = cur_node
             stack.append(cur_node)
         return stack.popleft()
-        
