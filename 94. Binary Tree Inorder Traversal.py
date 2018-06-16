@@ -19,9 +19,8 @@ class Solution:
         :rtype: List[int]
         """
         return self.inorderTraversal(root.left) + [root.val] \
-                + self.inorderTraversal(root.right) if root else []
-            
-    
+            + self.inorderTraversal(root.right) if root else []
+
     def inorderTraversal(self, root):
         """
         Iteration, as the question requested
@@ -42,7 +41,3 @@ class Solution:
                 nodes.append(node.right)
                 
         return [node.val for node in ans]
-            
-            
-        
-        
