@@ -22,4 +22,4 @@ class Solution:
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-    		return list(itertools.permutations(nums))
+        return list(itertools.permutations(nums))
