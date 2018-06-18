@@ -5,7 +5,7 @@ class Solution(object):
         :type S: str
         :rtype: List[int]
         """
-        char_index = {c:i for i, c in enumerate(S)}
+        char_index = {c: i for i, c in enumerate(S)}
         ans = []
         counter = anchor = 0
 
