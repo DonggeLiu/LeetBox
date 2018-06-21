@@ -18,14 +18,14 @@ class Solution:
         if not head or not head.next:
             return head
         
-        odd_start = odd_pointer = head
-        even_start = even_pointer = head.next
+        odd_head = odd_pointer = head
+        even_head = even_pointer = head.next
 
         while odd_pointer:
-            odd_pointer.next = even_pointer.next if even_pointer.next else even_start
+            odd_pointer.next = even_pointer.next if even_pointer.next else even_head
             odd_pointer = odd_pointer.next if even_pointer.next else None
-            
+
             even_pointer.next = odd_pointer.next if odd_pointer else None
             even_pointer = even_pointer.next if even_pointer.next else even_pointer
-                
-        return odd_start
+
+        return odd_head
