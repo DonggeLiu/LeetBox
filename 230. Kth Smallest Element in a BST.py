@@ -1,5 +1,5 @@
 """
-Questionl:
+Question:
 https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
 """
 # Definition for a binary tree node.
