@@ -4,7 +4,7 @@ A LootBox of the fastest and most succinct attempts on LeetCode
 
 ## Language
 
-All questions are attempted with `Python`
+All questions are attempted with `Python3`
 
 ## Focus
 
