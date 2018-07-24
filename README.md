@@ -4,8 +4,10 @@ A LootBox of the fastest and most succinct attempts on LeetCode
 
 ## Language
 
-<center>"Life is short 
-(You need `Python3`)."</center>
+<div style="text-align:center">
+"Life is short <br/>
+(You need `Python3`)."
+</div>
 
 <p align="right"> -- Bruce Eckel </p>
 
