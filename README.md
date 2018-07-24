@@ -4,14 +4,17 @@ A LootBox of the fastest and most succinct attempts on LeetCode
 
 ## Language
 
-All questions are attempted with `Python3`
+<center>"Life is short 
+(You need `Python3`)."</center>
+
+<p align="right"> -- Bruce Eckel </p>
 
 ## Focus
 
-Since this is my extracurricular activity, I will focus on the questions I am interested the most first:
+As this is merely an extracurricular activity, I will be cherry-picking the intriguing questions:
 
 1. Category: Algorithm
-2. Difficulty: Medium
+2. Difficulty: Medium-Hard
 
 ## Warning/Error/Formatting issues
 
@@ -27,11 +30,9 @@ However, I am not inclined to change these as this repo intends to provide solut
 
 ## Disclaimer
 
-Although MOST of these solutions are based on my original idea, I don't claim the authorship of ALL the code. 
+Although MOST of these solutions are mine, I don't claim the authorship of ALL the code. This repo intends to provide the *best* way to solve questions on LeetCode, and food for thought to anyone interested. A **better solution** is always preferred over **my solution**.
 
-This is because this repo intends to provide a LootBox for anyone who is interested in finding the *best* way to solve questions on LeetCode, and food for thought to encourage discussion. Hence a **better solution** is always preferred over **my solution**.
+For the same reason, you are more than welcome to:
 
-For the same reason, anyone is more than welcome to:
-
-1. Challenge the code here by providing a better one (faster, more succinct, illustrating or interesting)
-2. Add your authorship to any existing/new solution if it is yours.
+1. Challenge the existing solution by opening a pull request for a *better* one (faster, more succinct, illustrating or interesting)
+2. Add authorship to any current/new solution.
