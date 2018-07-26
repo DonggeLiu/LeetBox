@@ -6,3 +6,6 @@
 .idea
 out
 gen
+
+# private stash
+private
