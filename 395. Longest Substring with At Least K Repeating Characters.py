@@ -13,4 +13,5 @@ class Solution:
         """
         c = min(set(s), key=s.count) if s else None
         return 0 if not c else \
-            max(self.longestSubstring(t, k) for t in s.split(c)) if s.count(c) < k else len(s)
+            max(self.longestSubstring(t, k) if len(t) >= k else 0 for t in s.split(c)) \
+                if s.count(c) < k else len(s)
