@@ -15,8 +15,9 @@ class Solution:
         for r, row in enumerate(board):
             for c, cell in enumerate(row):
                 if cell != ".":
-                    if cell in dic_row[r] or cell in dic_col[c] or cell in dic_box[
-                        3 * (r // 3) + (c // 3)]:
+                    if cell in dic_row[r] \
+                            or cell in dic_col[c] \
+                            or cell in dic_box[3 * (r // 3) + (c // 3)]:
                         return False
                     dic_row[r].add(cell)
                     dic_col[c].add(cell)
